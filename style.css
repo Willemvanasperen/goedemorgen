@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@font-face { 
+    font-family: lobster;
+    src: url(Lobster.otf);
+ }
+
+body{
+    color: white;
+    text-align: center;
+    font-family: lobster;
+    margin-top: ;
+}
+
+h1, p{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    top: 39%;
+    font-size: 80px;
+}
+p{
+    top: 50%;
+    font-size: 40px;
+}
